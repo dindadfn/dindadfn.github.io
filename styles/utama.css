@@ -1,18 +1,19 @@
 /*style untuk selector - body */
 body {
     background-color:black;
-    margin:0px
+    margin:0px;
 }
 
 
 /*style untuk Heading - BEGIN */
 h1{
-    color:whitesmoke;
+    color:white ;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: aquamarine
 }    
 h3 {
-    color:silver ;
+    color:white;
+    background-color :black
 }
 /* style untuk Heading - END */
 
@@ -26,7 +27,7 @@ a:hover {
 
 /* Menu Header - BEGIN */
 .menu-header { 
-    background-color: #3333;
+    background-color: white;
     border-radius: 8px;
     box-shadow:
         0 3px 5px -1px rgba(0,0,0,0,2),
@@ -39,13 +40,13 @@ a:hover {
 .menu-header a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: uppercase;
-    color: azure;
+    color: black;
     text-decoration: none;
     padding: 10px 20px;
     letter-spacing: 1px;
 }
 .menu-header a:hover { 
-    color :beige;
+    color :pink;
 }
 .logo {
     text-align: center; 
@@ -64,7 +65,7 @@ a:hover {
 .footer {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:black;
-    background-color: slategrey;
+    background-color: white;
     padding: 10px 0px;
     font-size: 11px;
     text-align: center
@@ -76,7 +77,7 @@ a:hover {
 
 /* Card Home - BEGIN */
 .cardhome {
-    background-color:silver;
+    background-color:white;
     width: 30%;
     height: 250px;
     border-radius: 0px 0px 20px 20px;
@@ -129,3 +130,12 @@ a:hover {
     padding: 10px 10 px ;
     
 }
+/* style untuk link begin */
+.a:hover{
+    color: black;
+}
+a.link {
+    color:black;
+
+}
+/* style untuk link end */
